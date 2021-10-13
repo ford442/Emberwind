@@ -12,52 +12,52 @@
 <link href='http://fonts.googleapis.com/css?family=Allan:700&v2' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Meddon&v2' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Cuprum:700italic&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="src/Common.js"></script>
-<script type="text/javascript" src="src/Perlin.js"></script>
-<script type="text/javascript" src="src/ChaikinCurve.js"></script>
-<script type="text/javascript" src="src/render/Render.js"></script>
-<script type="text/javascript" src="src/render/RenderCanvas.js"></script>
-<script type="text/javascript" src="src/render/RenderWebGL.js"></script>
-<script type="text/javascript" src="src/render/Utils.js"></script>
-<script type="text/javascript" src="src/render/glMatrix.js"></script>
-<script type="text/javascript" src="src/render/webgl-utils.js"></script>
-<script type="text/javascript" src="src/Audio.js"></script>
-<script type="text/javascript" src="src/Animation.js"></script>
-<script type="text/javascript" src="src/Collision.js"></script>
-<script type="text/javascript" src="src/Movement.js"></script>
-<script type="text/javascript" src="src/Trigger.js"></script>
-<script type="text/javascript" src="src/ParticleSystem.js"></script>
-<script type="text/javascript" src="src/DialogueSystem.js"></script>
-<script type="text/javascript" src="src/GameObjects.js"></script>
-<script type="text/javascript" src="src/HittableObject.js"></script>
-<script type="text/javascript" src="src/PlayerCharacter.js"></script>
-<script type="text/javascript" src="src/Gremlin.js"></script>
-<script type="text/javascript" src="src/CaveEntrance.js"></script>
-<script type="text/javascript" src="src/House.js"></script>
-<script type="text/javascript" src="src/Pickup.js"></script>
-<script type="text/javascript" src="src/Breakables.js"></script>
-<script type="text/javascript" src="src/GremlinBasket.js"></script>
-<script type="text/javascript" src="src/ResourceClasses.js"></script>
-<script type="text/javascript" src="src/ResourceDepot.js"></script>
-<script type="text/javascript" src="src/Stage.js"></script>
-<script type="text/javascript" src="src/StageClasses.js"></script>
-<script type="text/javascript" src="src/GUIButtons.js"></script>
-<script type="text/javascript" src="src/GUIHeadsUp.js"></script>
-<script type="text/javascript" src="src/FSM.js"></script>
-<script type="text/javascript" src="src/Game.js"></script>
-<script type="text/javascript" src="src/Input.js"></script>
-<script type="text/javascript" src="src/AppStates.js"></script>
-<script type="text/javascript" src="src/App.js"></script>
-<script type="text/javascript" src="src/GremlinStates.js"></script>
-<script type="text/javascript" src="src/PCStates.js"></script>
-<script type="text/javascript" src="src/Wick.js"></script>
-<script type="text/javascript" src="src/TutorialTip.js"></script>
-<script type="text/javascript" src="src/Villager.js"></script>
-<script type="text/javascript" src="src/Lamppost.js"></script>
+<script src="./src/Common.js"></script>
+<script src="./src/Perlin.js"></script>
+<script src="./src/ChaikinCurve.js"></script>
+<script src="./src/render/Render.js"></script>
+<script src="./src/render/RenderCanvas.js"></script>
+<script src="./src/render/RenderWebGL.js"></script>
+<script src="./src/render/Utils.js"></script>
+<script src="./src/render/glMatrix.js"></script>
+<script src="./src/render/webgl-utils.js"></script>
+<script src="./src/Audio.js"></script>
+<script src="./src/Animation.js"></script>
+<script src="./src/Collision.js"></script>
+<script src="./src/Movement.js"></script>
+<script src="./src/Trigger.js"></script>
+<script src="./src/ParticleSystem.js"></script>
+<script src="./src/DialogueSystem.js"></script>
+<script src="./src/GameObjects.js"></script>
+<script src="./src/HittableObject.js"></script>
+<script src="./src/PlayerCharacter.js"></script>
+<script src="./src/Gremlin.js"></script>
+<script src="./src/CaveEntrance.js"></script>
+<script src="./src/House.js"></script>
+<script src="./src/Pickup.js"></script>
+<script src="./src/Breakables.js"></script>
+<script src="./src/GremlinBasket.js"></script>
+<script src="./src/ResourceClasses.js"></script>
+<script src="./src/ResourceDepot.js"></script>
+<script src="./src/Stage.js"></script>
+<script src="./src/StageClasses.js"></script>
+<script src="./src/GUIButtons.js"></script>
+<script src="./src/GUIHeadsUp.js"></script>
+<script src="./src/FSM.js"></script>
+<script src="./src/Game.js"></script>
+<script src="./src/Input.js"></script>
+<script src="./src/AppStates.js"></script>
+<script src="./src/App.js"></script>
+<script src="./src/GremlinStates.js"></script>
+<script src="./src/PCStates.js"></script>
+<script src="./src/Wick.js"></script>
+<script src="./src/TutorialTip.js"></script>
+<script src="./src/Villager.js"></script>
+<script src="./src/Lamppost.js"></script>
 <script type="text/javascript">
 var app = null;
 window.onload = function(){
-utils.loadShaderXml("src/render/shaders.xml",null,function(shaders){
+utils.loadShaderXml("./src/render/shaders.xml",null,function(shaders){
 if(shaders instanceof Exception){
 app = shaders;
 }else{
